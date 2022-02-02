@@ -28,3 +28,21 @@
 * 
 * 
 * 
+
+
+
+# Error Handling & Log aggregation to server side
+* For all below ecorator on $log has to be used in Angular
+* https://trackjs.com/
+* https://sentry.io/welcome/
+* self hosted sentry
+* https://glitchtip.com/
+* https://www.stacktracejs.com/
+* expose a nodejs service which talks to Logstash in a secure manner. This ensures Logstash is not exposed to public network
+* Enable HTTP endpoint on Logstash as a log collector entry point which can be called from Angular client side
+* https://raygun.com/
+* https://github.com/stacktracejs/stacktrace.js
+* https://github.com/stacktracejs/error-stack-parser
+* https://github.com/stacktracejs/stack-generator
+* 
+* 
